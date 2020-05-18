@@ -1,6 +1,7 @@
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -9,6 +10,10 @@ public class MakeMeRich {
 			"IBM", "TXN", "VMW", "XRX", "AAPL", "ADBE", "AMZN", "CRAY", "CSCO",
 			"SNE", "GOOG", "INTC", "INTU", "MSFT", "ORCL", "TIBX", "VRSN",
 			"YHOO");
+	
+	
+
+	
 
 	public static void main(String[] args) {
 
@@ -25,8 +30,9 @@ public class MakeMeRich {
 			info.add(si);
 		});		
 		// 4. Find the highest-priced stock under $500
-		
-		
+		Object[] str = info.stream().filter(c -> c.price < 500).sorted().toArray();
+		System.out.println(Arrays.toString(str));
+		//Yaaay! 
 		
 	}
 

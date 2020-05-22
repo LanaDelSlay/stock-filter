@@ -26,3 +26,5 @@ public class StockInfo implements Comparable {
         return (int) this.price - (int) ((StockInfo) m).getPrice(); 
 	}
 }
+
+//Copyright Grrrrraaaaaaaahaaaaaam, 2020

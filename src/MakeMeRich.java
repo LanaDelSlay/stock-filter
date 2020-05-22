@@ -37,3 +37,4 @@ public class MakeMeRich {
 	}
 
 }
+//Copyright Grrrrraaaaaaaahaaaaaam, 2020

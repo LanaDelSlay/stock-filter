@@ -44,3 +44,5 @@ public class StockUtil {
 		}
 	};
 }
+
+//Copyright Grrrrraaaaaaaahaaaaaam, 2020
